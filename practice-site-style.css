@@ -1,0 +1,50 @@
+#TS {
+	font-family: 'Font Name', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+html, body, div, img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+
+.item {
+	margin: 5px;
+}
+
+/* Container holding the image and the text */
+#essays {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* pic set up */
+#pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+ margin: 5px;
+ transition: all 2s;
+}
+img:hover {
+ transform: scale (1.1);
+}
